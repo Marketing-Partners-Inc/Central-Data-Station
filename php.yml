@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/web1/public_html/repositories
+    - /bin/cp -R images $DEPLOYPATH
